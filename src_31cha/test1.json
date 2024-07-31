@@ -1,0 +1,17 @@
+[
+    {
+        "SAMPLE": "1",
+        "GENE": "BRAF",
+        "VALUE": "3.84"
+    },
+    {
+        "SAMPLE": "12",
+        "GENE": "TRET",
+        "VALUE": "6.15"
+    },
+    {
+        "SAMPLE": "3",
+        "GENE": "KRAS",
+        "VALUE": "2.76"
+    }
+]
