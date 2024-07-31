@@ -113,10 +113,10 @@ class Vcf:
                     if len(ref) > len(alt):  # DEL
                         del_len = len(ref) - len(alt)
                         if del_max < del_len:
-                            del_max == del_len
+                            del_max = del_len
                     elif len(ref) < len(alt):
                         ins_len = len(alt) - len(ref)
                         if ins_max < ins_len:
-                            ins_max == ins_len
+                            ins_max = ins_len
 
         return {"ins_max": ins_max, "del_max": del_max}

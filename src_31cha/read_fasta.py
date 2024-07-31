@@ -1,4 +1,4 @@
-import Bio
+from collections import defaultdict
 
 
 class FastaReader:
